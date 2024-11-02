@@ -1,0 +1,1 @@
+echo Hello My TeamCity! ( kojeomstudio )
