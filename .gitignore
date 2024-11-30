@@ -30,3 +30,101 @@
 *.exe
 *.out
 *.app
+
+# 빌드 출력물
+bin/
+obj/
+out/
+
+# 사용자별 설정 파일
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vcxproj.user
+
+# Visual Studio 작업 폴더
+.vs/
+.vscode/
+
+# 패키지 폴더 (복원 가능)
+packages/
+*.nupkg
+*.snupkg
+
+# 프로젝트 파일 백업
+*.bak
+
+# 로그 파일
+*.log
+
+# 잠금 파일
+project.lock.json
+*.lock.json
+
+# NuGet 관련 파일
+.nuget/
+csproj.nuget.g.props
+csproj.nuget.g.targets
+
+# Rider/JetBrains IDE 파일
+.idea/
+*.sln.iml
+
+# Resharper 파일
+_ReSharper*/
+*.DotSettings.user
+
+# 기타 캐시 및 임시 파일
+*.cache
+*.pdb
+*.mdb
+*.pidb
+*.tmp
+*.svclog
+*.tlog
+
+# 디버그/릴리스 구성 파일
+*.dbmdl
+*.jfm
+
+# 분산 파일
+*.ipch
+*.aps
+
+# 코드 분석 결과 파일
+*.iobj
+*.ipdb
+*.opendb
+
+# DotNet CLI 빌드 결과
+*.generated.cs
+*.ide.csproj
+
+# Docker 관련
+docker-compose.override.yml
+
+# macOS 관련
+.DS_Store
+._*
+
+# Windows 관련
+Thumbs.db
+desktop.ini
+
+# 빌드 산출물
+bin/
+obj/
+
+# NuGet 패키지 및 캐시
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# 임시 파일
+*.tmp
+*.log
+
+# 프로젝트 잠금 파일
+project.lock.json
