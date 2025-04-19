@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+/lecture
+.my_py_venv
+*.xlsx
+*.pdf
+*.txt
